@@ -1,0 +1,541 @@
+* { 
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.clear-fix {
+    clear: both;
+}
+
+
+
+/*navbar */
+
+ .navbar { 
+    text-align: center;
+    background-color:transparent;
+  
+   
+}
+.navbar .logo {
+    float: left;
+    padding:15px;
+    margin-left:10px;
+}
+
+
+.logo img {
+    width:40%;
+
+}
+
+.list ul {
+
+    list-style-type: none;
+}
+
+.list li {
+    float: right;
+    padding:15px;
+    
+    
+}
+.list li a {
+   color: white;
+   text-decoration: none;
+   font-size:22px;
+   
+}
+
+.list li a:hover{
+    color: #8E7754;
+}
+
+
+/*header*/
+
+.header {
+    width:100%;
+    height:100vh;
+    text-align: center;
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-size:cover;
+    background-position:center center ;
+    
+    
+}
+.header-text {
+    position: relative;top:10em ;
+}
+.header-text h1{
+    font-size:60px;
+    font-weight:400;
+    color: white;
+    padding-bottom: 20px;
+    position: relative;right:3em ; 
+    
+}
+
+.header-text h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom:20px;
+    padding-bottom: 20px; 
+    position: relative;left:2.2em ;
+
+}
+
+.header-text h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom:20px;
+    padding-bottom: 20px; 
+    position: relative;left:2em ;
+}
+
+.header-text .btn1 {
+    background-color:#8E7754;
+    color: white;
+    padding:15px;
+    margin-right:15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.header-text .btn2 {
+    background-color:transparent;
+    color: white;
+    padding:15px;
+    border: 1px white solid;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.header-text .btn a {
+    text-decoration: none;
+    color: white;
+}
+.btn:hover {
+    color:#050404;
+    background-color: white;
+    
+}
+.header-text .btn2 a:hover {
+    color: black;
+}
+
+.border {
+    width: 30px;
+    height: 50px;
+    border:2px white solid ;
+    border-radius: 50px;
+    background-color:transparent;
+    position: relative;top:15.5em;
+    position: relative;left:40.8em;
+}
+
+/* About Section (float) */
+
+/* .about-section {
+    background-color: #FFFFFF;
+    margin: 100px auto;
+    width:100%;
+}
+.about-img {
+    float: left;
+    width: 50%;
+
+}
+
+.about-section .img {
+    width: 80%;
+    margin:0 80px ;
+
+}
+.about-text {
+   color: #686868;
+    width: 50%;
+    float: right;
+
+}
+.about-text h2 {
+    color:RGB(48, 48, 48) ;
+    font-size:28px;
+    padding-bottom:20px;
+}
+.about-text p ,li {
+    font-size:14px;
+    line-height:36px;
+
+}
+
+.about-icon i {
+    font-size:22px;
+    color:#32395E ;
+}
+.about-icon  {
+    list-style-type: none;
+}
+.about-icon li img {
+    width: 25px;
+    margin-right:10px;
+    border: 1px solid rgb(32, 32, 31);
+    border-radius: 10px;
+    background-color: #8E7754;
+}
+
+.clear-fix {
+    clear: both;
+} 
+*/
+
+
+
+
+/* About Section (display:inline-block) */
+
+.about-section {
+    background-color: #FFFFFF;
+    margin: 100px auto;
+    width:100%;
+}
+.about-img {
+    width:50%;
+    display: inline-block;
+    
+}
+
+.about-section .img {
+    width: 80%;
+    margin:0 80px ;
+
+}
+.about-text {
+    width:40%;
+    display:inline-block;
+    color: #686868;
+    position: relative;bottom:150px; 
+     position: relative;left:50px; 
+
+}
+
+.about-text h2 {
+    color:#303030;
+    font-size:28px;
+    padding-bottom:20px;
+}
+.about-text p ,li {
+    line-height:36px;
+    font-size: 18px;
+
+}
+
+.about-icon i {
+    font-size:22px;
+    color:#32395E ;
+}
+.about-icon  {
+    list-style-type: none;
+    
+}
+.about-icon li img {
+    width: 25px;
+    margin-right:10px;
+    border: 1px solid rgb(32, 32, 31);
+    border-radius: 10px;
+    background-color: #8E7754;
+}
+
+
+
+/*our location float */
+
+/* .location {
+    width:100%;
+    background-color:#F8F8F8;
+    word-spacing:0px;
+    margin: 20px auto;
+    padding:70px 54.5px;
+
+}
+.location-text {
+    color: #686868;
+    width: 50%;
+    float: left;
+    line-height:35px;
+    font-size: 14px; ;
+}
+.location-text h2 {
+    color:#303030;
+    font-size:24px;
+    padding-bottom: 30px;
+}
+.location-img img {
+    float: right;
+    width:45%;
+    margin-left:50px auto ;
+
+} */
+
+
+
+/*our location display:inline-block*/
+
+.location {
+    width:100%;
+    background-color:#F8F8F8;
+    word-spacing:0px;
+    margin: 20px auto;
+    padding:70px 54.5px;
+
+}
+.location-text {
+    color: #686868;
+    width:45%;
+    display: inline-block;
+    line-height:35px;
+    font-size:20px; 
+    position: relative;bottom:120px;
+}
+.location-text h2 {
+    color:RGB(48, 48, 48) ;
+    font-size:30px;
+    padding-bottom: 30px;
+}
+.location-img {
+    display: inline-block;
+    width:50%
+}
+.location-img img {
+    display: inline-block;
+    width:85%;
+    margin-left:50px auto ;
+    position: relative;left:85px;
+
+}
+
+
+
+
+
+/* Baking-Section*/
+
+.baking-section {
+    width: 80%;
+    margin:70px auto;
+
+}
+.baking-text {
+    text-align: center;
+}
+.baking-text h2 {
+    color:#303030;
+    font-size: 30px;
+    padding-bottom: 30px;
+
+}
+.baking-text p {
+    color:#686868;
+    font-size: 18px;
+}
+.baking-pro {
+    text-align: center;
+    margin-top:60px;
+}
+
+.baking-item {
+    float: left;
+    width:33.33%;
+   position: relative;bottom: 40px;
+    
+}
+.baking-item p  {
+    font-size:18px;
+    line-height: 29px;
+    color:#686868;
+
+}
+.baking-item h3 {
+    color:#303030;
+    font-size:16px;
+   
+}
+.baking-item img {
+    width:100%;
+    margin:50px auto;
+    padding: 0 20px;
+}
+
+
+/*information section*/
+
+.info-section {
+    background-color:#F8F8F8; ;
+    margin: auto;
+    width: 100%;
+    padding: 60px;
+
+}
+
+.info-text {
+    width: 50%;
+    float: left;
+}
+
+
+.info-text p {
+    font-family:Alegreya Sans;
+    font-size: 20px;
+    line-height: 31.62px;
+    color:#686868;
+    padding-bottom: 20px;
+}
+
+.info-text li {
+    font-family:Alegreya Sans;
+    font-size: 18px;
+    line-height: 31.62px;
+    color:#686868;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+}
+.info-text h2 {
+    color:#080808;
+    font-size:28px;
+    padding-bottom: 30px;
+    font-style: italic;
+    
+}
+.info-details {
+    font-style: italic;
+    font-weight:700;
+    color:#050404;
+    
+}
+
+.info-list ul {
+    list-style-type: none;
+}
+
+.info-list li  img{
+  width: 25px; 
+  margin-right:20px;
+  border: 1px rgb(233, 147, 76) solid;
+  border-radius: 20px;
+  background-color: #8E7754;
+}
+.info-img {
+    width: 50%;
+    float: right;
+    
+}
+
+.info-img img {
+    width:85%;
+   position: relative;left:80px;
+
+}
+
+
+/*summary*/
+ .summary {
+    background-color:#403D38;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+ }
+
+.summary-item {
+    float: left;
+    width:23%;
+    padding: 20px 0;
+    position: relative;left:85px;
+  
+
+}
+
+.summary-item p{
+    color:RGB(150, 150, 150);
+    font-size: 18px;
+    line-height: 30px;
+    padding-right:8px;
+}
+.summary-item ul{
+    color:RGB(150, 150, 150);
+    font-size: 14px;
+    line-height: 30px;
+}
+.summary-item .artcle {
+    color: whitesmoke;
+    font-size:20px;
+    margin-bottom:20px;
+   
+    
+}
+
+.summary-item hr {
+    width:60%;
+    opacity:10%; 
+
+    
+}
+
+.summary-item  ul {
+    list-style-type: none;
+
+}
+.summary-item li {
+   margin-bottom: 5px;
+}
+.summary-item li img {
+    width: 20px;
+    margin-right:10px;
+    background-color:RGB(150, 150, 150) ;
+    opacity:25%
+    
+}
+.summary-item li a {
+    text-decoration: none;
+    color: RGB(150, 150, 150);
+}
+
+
+
+/*footer*/
+
+.foot {
+background-color: #353330;
+color: #777777;
+text-align: center;
+padding-top: 50px;
+
+}
+
+.foot-img {
+    margin-bottom: 50px auto;
+}
+.foot p {
+    padding-bottom:20px;
+    margin-bottom: 5px;
+}
+.foot-list ul {
+    list-style-type: none;
+}
+
+.foot-list li {
+    float: left;
+    padding:15px;
+    position: relative;left:42%;
+    
+}
+
+.foot-list li img {
+    width: 30px;
+     position: relative;right:15px
+}
+
+
